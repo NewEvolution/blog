@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #4D2C73;
+}
+
 img {
   max-width: 400px;
 }
@@ -9,7 +18,35 @@ img {
   border-color: red;*/
   /*padding: 1px 3px 5px 4px;  top right bottom left */
   /*padding: 5px 4px 3px;  top left&right bottom */
-  padding: 3px 4px; /* top&bottom left&right */
+  padding: 20px 35px; /* top&bottom left&right */
   /* padding: 10px; all sides */
+  background-color: azure;
+  margin: 10px;
 }
+
+#article1 p {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+  color: firebrick;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+}
+
+a:visited {
+  color: black;
+}
+
+
+
+
+
 
