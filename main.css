@@ -7,6 +7,14 @@ body {
   color: #4D2C73;
 }
 
+.hidden {
+  display: none;
+}
+
+.min_input {
+  min-width: 500px
+}
+
 img {
   max-width: 400px;
 }

@@ -13,6 +13,58 @@
     </ul>
   </header>
 
+  <form action="">
+    <fieldset>
+      <label class="hidden" for="firstname">First Name</label>
+      <input type="text"  name="fishbulb" placeholder="First Name" id="firstname" required>
+
+      <label class="hidden" for="email">email</label>
+      <input required type="email"  name="email" placeholder="foo@bar.com" id="email">
+
+      <label class="hidden" for="age">Age</label>
+      <input type="number" required name="age" min="18" max="120" placeholder="65" id="age">
+    </fieldset>
+
+    <label class="hidden" for="bio">Age</label>
+    <textarea name="bio" placeholder="A little about yourself" id="bio"></textarea>
+
+    <label class="hidden" for="favcolor">Favorite Color</label>
+    <input type="color" value="#00FF00" name="favcolor" id="favcolor">
+
+    <label class="hidden" for="website">Personal Site</label>
+    <input class="min_input" required placeholder="http://nothing.com" type="url" name="website" id="website">
+
+    <input type="text" name="country" value="USA" readonly>
+
+    <fieldset>
+      <label for="peanuts">Peanuts</label>
+      <input type="checkbox" value="peanuts" checked id="peanuts" name="peanuts">
+
+      <label for="shellfish">Shellfish</label>
+      <input type="checkbox" value="shellfish" id="shellfish" name="shellfish">
+
+      <label for="soy">Soy</label>
+      <input type="checkbox" value="soy" id="soy" name="soy">
+
+      <label for="kiwis">Kiwis</label>
+      <input type="checkbox" value="kiwis" id="kiwis" name="kiwis">
+    </fieldset>
+
+    <fieldset>
+      <label for="red">Red</label>
+      <input type="radio" checked value="red" name="rgb" id="red">
+
+      <label for="green">Green</label>
+      <input type="radio" required value="green" name="rgb" id="green">
+
+      <label for="blue">Blue</label>
+      <input type="radio" value="blue" name="rgb" id="blue">
+    </fieldset>
+
+    <input type="submit" value="Other Text" name="submit">
+    <!-- <button disabled type="submit">Other Text</button> -->
+  </form>
+
   <article id="article1">
     <header>
       <marquee><h2>Thoughts from Tuesday</h2></marquee>
